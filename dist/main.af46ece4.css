@@ -1,0 +1,42 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.stupidContainer {
+  position: relative;
+}
+
+.littleGuy {
+  font-size: 8px;
+  font-family: "Maven Pro", sans-serif;
+  position: absolute;
+  bottom: 20px;
+}
+
+#logo {
+  width: 120px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.secretOtter, .importantOtter {
+  display: none;
+  text-align: center;
+}
+.secretOtter img, .importantOtter img {
+  max-width: 500px;
+}
+.secretOtter.visible, .importantOtter.visible {
+  display: block;
+}
+
+
+
+/*# sourceMappingURL=/main.af46ece4.css.map */
