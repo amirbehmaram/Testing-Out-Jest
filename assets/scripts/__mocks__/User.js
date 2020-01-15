@@ -1,3 +1,4 @@
+// Mock User class. Will be used for our User class test
 class User {
   constructor() {
     this.name = "Your Mom";

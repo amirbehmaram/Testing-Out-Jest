@@ -3,7 +3,7 @@ require ('whatwg-fetch');
 let JestTest = require('../JestTest');
 let jester = new JestTest();
 
-test('Test our sum function with 1 + 2 =', () => {
+test('Test our sum function with 1 + 2 = 3', () => {
   expect(jester.sum(1,2)).toBe(3);
 });
 

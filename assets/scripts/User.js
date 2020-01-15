@@ -9,6 +9,7 @@ class User {
   }
 
   // Wanted to test out getters
+  // Doing user.address should return the string value
   get address() {
     return this.street + " " + this.suite + " " + this.city;
   }

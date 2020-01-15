@@ -1,4 +1,6 @@
 let DomManipulation = require("../DomManipulation");
+
+// Our "simulated DOM"
 let documentContent = `
 <main>
   <header>

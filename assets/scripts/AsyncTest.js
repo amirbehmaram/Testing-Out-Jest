@@ -7,8 +7,6 @@ class AsyncTest {
   constructor() {
     this.posts = {};
     this.users = [];
-
-    this.getUsers();
   }
 
   // Good old API request to update out class data

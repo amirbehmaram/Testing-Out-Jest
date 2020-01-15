@@ -2,6 +2,7 @@
 let User = require('../User.js');
 
 // Mock our User class to test out the classes methods
+// This looks within the __mocks__ directory for a User.js to use.
 jest.mock('../User.js');
 
 test('Get name from a User', () => {
